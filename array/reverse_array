@@ -1,0 +1,5 @@
+def reverse_array(a):
+    return a[::-1]
+    
+arr = list(map(int,input("enter the array").split()))
+print(reverse_array(arr))
