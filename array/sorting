@@ -1,0 +1,5 @@
+def sortedArray(a):
+    return sorted(a)
+    
+l = list(map(int,input("Enter  the array ").split()))
+print(sortedArray(l))
